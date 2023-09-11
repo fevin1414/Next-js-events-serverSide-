@@ -12,7 +12,7 @@ export async function getAllEvents() {
       ...data[key],
     });
   }
-  console.log('All Events:', events);
+
   return events;
 }
 export async function getFeaturedEvents() {
